@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title>The Beginning, The Middle, & The New Beginning</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lqf2kga.css">
+
+    <meta property="og:title" content="The Beginning, The Middle, & the New Beginning" />
+    <meta property="og:description" content="A guide to storytelling in data visualization" />
+    <meta property="og:url" content="http://www.duncangeere.com/newbeginning/" />
+    <meta property="og:image" content="http://www.duncangeere.com/newbeginning/newbeginning-og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:type" content="text/html" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59049444-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-59049444-1');
+
+    </script>
+</head>
+
+<body>
+    <h1>The Beginning, The Middle & The New Beginning</h1>
+    <div class="text">
+        <p class="subtitle">A guide to storytelling in data visualization, by Duncan Geere</p>
+        <p class="doubledivider">***</p>
+        <p>Good things come in threes. Flavours in a tub of Neapolitan ice cream. Underpants in multipacks. Bears. There’s something about the magic number three that’s endlessly satisfying to the human brain.</p>
+        <p>That’s why good stories have a <em>beginning</em>, a <em>middle</em>, and an <em>end</em>. Three equal-ish parts, which give a story balance. Which make a story satisfying.</p>
+        <p>Much is written about the value of storytelling in all walks of modern life, from pitching an investor to buying a cup of coffee. In data visualization these days, it’s practically a religion. And this is no bad thing.</p>
+        <p>But there’s a problem. The classic <em>beginning</em> » <em>middle</em> » <em>end</em> model doesn’t map so well onto the goals of data visualization, because a dataviz is very rarely the end of a story. Much of the time you want the viewer to do something specific afterwards. You want them to make an informed decision, or buy something, or sometimes just sign up to a mailing list.</p>
+        <p>So I’ve developed a tweaked version of this framework which has served me well as a mental model when I’m making visualizations. I call it <em>“The Beginning, The Middle, & The New Beginning”</em>.</p>
+        <p>I’ll tell you about them in turn. </p>
+        <p class="singledivider">***</p>
+        <h2>The Beginning</h2>
+        <p>Every data visualization, no matter how simple, needs an entry point. A way for the viewer to get their fleshy brain-hooks into the information. There are several ways you can approach this.</p>
+        <p>The title is often the first thing that someone reads when they look at a dataviz, and a good title is an easy way to tell a viewer everything they need to know. Make it short and snappy. The best titles actually make the dataviz somewhat redundant - instead of <em>“Sales of Various Fruits, 2017”</em>, make it <em>“Oranges Were 2017’s Bestselling Fruit”</em>. Make the title your one key takeaway.</p>
+        <p>Another approach is to grab the reader with a strong visual. Something arresting, to stop them in their tracks as they mindlessly scroll Twitter or Instagram. <a href="https://public.tableau.com/profile/mariona.banyeres#!/vizhome/Migration_IronViz20193rdfeeder/Dashboard2">Here’s a great example</a> - look at those hands! <a href="https://twitter.com/ciablog/status/1155840397987524608/photo/1">Here’s another</a>, filled with beautiful curves. These graphics make you want to explore them, if only to find out what’s going on.</p>
+        <p>A third approach is to bring the viewer in gradually, step-by-step. This usually requires interactivity or animation of some sort (even if that’s just clicking through slides in a PowerPoint deck). I like to use this in situations where I have a lot of complexity or nuance to cover, or a captive audience, or both. For example, the structure of Europe’s various groupings of countries are not easy to grasp. But build them up step-by-step, and they’re much easier to grasp:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yht_zE_mT7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="singledivider">***</p>
+        <h2>The Middle</h2>
+        <p>Okay, you’ve hooked the viewer. They know oranges were 2017’s best-selling fruit. Now they’re intrigued and they have questions. <em>“What was the second best-selling fruit?”</em> <em>“How did plums perform?”</em> <em>“Why does everyone hate gooseberries?”</em> This is where you satisfy their curiosity.</p>
+        <p>In this phase, you want to anticipate as many of those questions as you can. When I’m scanning through a dataset to prepare to visualize it, I sometimes write a list of the questions that occur to me as I go (along with the answers), on the grounds that if they piqued my curiosity they’ll probably pique someone else’s too. Then I make sure that my final visualization answers them.</p>
+        <p>There are many ways to give viewers this detail without visually overloading a chart. You can use interactivity - adding in filters or a time slider. On a map you can add the ability to pan and zoom. You can take the step-by-step buildup approach described above. In a dashboard, you can add more charts that show specific breakdowns (right? I have no idea, I never make dashboards). </p>
+        <p>My favorite technique to answer questions, particularly on static visualizations, is to use annotations. On my <a href="https://www.duncangeere.com/spacedogs/"><em>Space Dogs</em> graphic</a>, for example, I knew people would want to know more about individual canine cosmonauts among the pack that the Soviet Union sent into space. So I picked out the most interesting little factoids that I came across in my research, and simply added them to the graphic.</p>
+        <p class="singledivider">***</p>
+        <h2>The New Beginning</h2>
+        <p>If you got this far, you’re in a great place. You’ve hooked the viewer, and answered all of their questions. In classic storytelling, this is where you’d wrap things up - the world is safe once more and the hero returns home, forever changed by her experiences.</p>
+        <p>But in dataviz, it’s rare that we want people to stop and close the book. We want them to act! We, The Florida Association of Orange Growers, want people to invest in a promising new set of groves. We, The Orange Workers Union, want our workers fairly compensated for their record-breaking labour. We, the Centre for Orange Disease Control, want politicians to take our warnings of Orange Flu seriously.</p>
+        <p>So this where you create a new beginning for the viewer - a bridge to what you want them to do next. It might be an order form to fill in. It might be a link for the viewer to tweet their dismay, or sign a petition. It might be a link to a site that lets them call their political representative. Figure out what you want the viewer to do and make it as easy as you can for them to do it immediately after they’ve seen your visualization.</p>
+        <p>Because otherwise you’re just wasting your time. Data visualization is an incredibly powerful tool for changing the world - but if you don’t build the viewer a bridge from your persuasive infographic to what you want them to do, that change will never happen. And that would be sad.</p>
+        <p class="singledivider">***</p>
+        <p>So to sum all up into a single easy-to-tweet screenshot:</p>
+        <div class="summary">
+            <p><strong>A data visualization needs</strong>:</p>
+            <p><strong>A beginning</strong> - a compelling entry point to the information you’re presenting.</p>
+            <p><strong>A middle</strong> - answers to the key question that they have about the information.</p>
+            <p><strong>A new beginning</strong> - an immediate chance to act on the new information they’re received.</p>
+        </div>
+        <p>And now here are my new beginnings for you:</p>
+        <p>If you liked this and want to hear more from me, you should sign up to <a href="https://buttondown.email/duncangeere">my mailing list</a> where I write a lot about beginnings. Or <a href="http://www.twitter.com/duncangeere">follow me on Twitter</a>, if you’ve not yet quit Twitter.</p>
+        <p>If you want to hire me to help you turn information or data into compelling stories, you should probably <a href="mailto:radio.edit@gmail.com">email me</a> and put the word IMPORTANT in the subject line. I’ll open it even if you don’t, but I won’t feel as important.</p>
+        <p>And if you make data visualizations, or want to, then you need to join the Data Visualization Society. Do it right now by <a href="https://www.datavisualizationsociety.com/join">clicking this link</a> and filling out a short form. It’s the best career move you’ll ever make.</p>
+        <p> - Duncan Geere, September 2019</p>
+        <p class="doubledivider">***</p>
+    </div>
+</body>
