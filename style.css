@@ -81,6 +81,19 @@ hr {
     font-size: 140%;
 }
 
+.h1glyph {
+    margin-left: -80px;
+}
+
+.h2glyph {
+    margin-left: -57px;
+}
+
+.summglyph {
+    margin-left: -30px;
+    font-size: 150%;
+}
+
 .text {
     /* body text */
     color: #A1ABB4;
@@ -101,8 +114,8 @@ a {
 }
 
 .summary {
-    padding: 0 15% 0 15%;
-    width: 70%;
+    padding: 0 35% 0 15%;
+    width: 50%;
     margin: 30px 0 30px 0;
 }
 
