@@ -1,0 +1,132 @@
+body {
+    background-color: #292B34;
+    align-content: center;
+}
+
+title {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: "leftmar header rightmar"
+}
+
+h1 {
+    font-family: mrs-eaves, serif;
+    font-size: 400%;
+    font-weight: 300;
+    margin: 0 0 0 0;
+    line-height: 90%;
+    grid-area: header;
+}
+
+h2 {
+    font-family: mrs-eaves, serif;
+    font-size: 300%;
+    line-height: 100%;
+    font-weight: 300;
+    margin: 0 0 0 0;
+}
+
+.subtitle {
+    font-family: mrs-eaves, serif;
+    font-style: italic;
+    font-size: 200%;
+    line-height: 100%;
+    margin: 30px 0 10px 0;
+}
+
+hr {
+    border-top: 0.5px solid #A1ABB4;
+    margin: 40px 0 40px 0;
+}
+
+.doubledivider {
+    height: 5px;
+    border-bottom: 0.5px solid #A1ABB4;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+/* colours for specific elements */
+.thebeginning {
+    color: #8390A5;
+    display: inline-block;
+}
+
+.themiddle {
+    color: #877D7B;
+    display: inline-block;
+}
+
+
+.thenewbeginning {
+    color: #D6DADD;
+    display: inline-block;
+}
+
+.thebeginning::first-letter {
+    font-family: mrs-eaves;
+    font-feature-settings: "ornm" on;
+    font-size: 140%;
+}
+
+.themiddle::first-letter {
+    font-family: mrs-eaves;
+    font-feature-settings: "ornm" on;
+    font-size: 140%;
+}
+
+.thenewbeginning::first-letter {
+    font-family: mrs-eaves;
+    font-feature-settings: "ornm" on;
+    font-size: 140%;
+}
+
+.text {
+    /* body text */
+    color: #A1ABB4;
+    width: 60%;
+    max-width: 800px;
+    font-family: "Merriweather", serif;
+    font-size: 14pt;
+    height: auto;
+    padding: 2px 20px;
+    margin: 30px auto 60px auto;
+    line-height: 150%;
+}
+
+a {
+    color: #AD3134;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.summary {
+    padding: 0 15% 0 15%;
+    width: 70%;
+    margin: 30px 0 30px 0;
+}
+
+.signoff {
+    margin: 30px 0 40px 0;
+}
+
+.video-container {
+    position: relative;
+    margin: 30px 0 30px 0;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 70%;
+}
